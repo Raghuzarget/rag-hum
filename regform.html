@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.city {
+    padding:15px;
+    border: 1px solid red;
+} 
+</style>
+<body>
+<div class="city">
+<form action="action_page.php">
+  First name:
+  <input type="text" name="firstname" value="" maxlength="15">
+  <br><br>
+  Last name:
+  <input type="text" name="lastname" value="" maxlength="15">
+  <br><br>
+  Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="email" name="Email" value="">
+  <br><br>
+  Password:
+  <input type="Password" name="Password" value=""><br><br>
+   Birthday:
+  <input type="date" name="bday"><br><br>
+  Father name:
+<input type="text" value=""><br> <br><br>
+Age (between 20 and 25):
+  <input type="number" name="quantity" min="20" max="25">
+  <br><br>
+Gender:
+<input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female<br><br>
+
+ City:<select name="city">
+  <option value="trichy">trichy</option>
+  <option value="madurai">madurai</option>
+  <option value="chennai">chennai</option></select><br><br>
+  Department:
+  <select name="dept">
+  <option value="Ece">ECE</option>
+  <option value="Cse">CSE</option>
+  <option value="It">It</option></select><br><br>
+  Vehicle:
+<input type="checkbox" name="vehicle1" value="Bike">bike
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="checkbox" name="vehicle2" value="Car">car 
+<br><br>
+  Aboutyourself:<br><textarea name="" rows="10" cols="40"></textarea><br><br>
+  <a href="http://st3.cricketcountry.com/wp-content/uploads/cricket/20140529093446.jpeg">
+  <img src="smiley.gif" alt="HTML tutorial" style="float:top right;width:42px;height:42px;border:0;">
+</a>
+  <input type="submit" value="submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
+</div>
+</body>
+</html>
